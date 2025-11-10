@@ -1,0 +1,15 @@
+streamlit
+python-dotenv
+crewai
+crewai-tools
+PyPDF2
+python-docx
+sentence-transformers
+numpy
+faiss-cpu
+pickle-mixin
+reportlab
+pydantic
+arxiv
+feedparser
+requests
