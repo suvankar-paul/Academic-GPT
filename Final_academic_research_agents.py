@@ -46,7 +46,7 @@ import time
 load_dotenv()
 os.environ["SERPER_API_KEY"] = "3f056fb14a368c48a02a1109b88db19f2445ece2"
 os.environ[
-    "OPENAI_API_KEY"] = "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"
+    "OPENAI_API_KEY"] = "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"
 os.environ["OPENAI_MODEL"] = "gpt-4-32k"
 
 # Streamlit App Configuration
