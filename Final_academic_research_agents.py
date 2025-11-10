@@ -2,7 +2,8 @@ import os
 import tempfile
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process
-from crewai_tools import SerperDevTool, BaseTool
+from crewai.tools import BaseTool
+from crewai_tools import SerperDevTool
 import streamlit as st
 import PyPDF2
 from docx import Document
@@ -25,7 +26,7 @@ from dataclasses import dataclass
 from pydantic import Field
 from textwrap import dedent
 import arxiv
-from euriai.langchain_embed import EuriaiEmbeddings
+
 
 
 
